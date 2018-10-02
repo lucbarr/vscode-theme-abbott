@@ -1,0 +1,26 @@
+{
+	"name": "vscode-theme-abbott",
+	"displayName": "Abbott theme",
+	"description": "just another theme you know",
+	"version": "1.0.0",
+	"publisher": "lucbarr",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lucbarr/vscode-theme-abbott"
+	},
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Abbott",
+				"uiTheme": "vs-dark",
+				"path": "./themes/abbott.json"
+			}
+		]
+	}
+}
